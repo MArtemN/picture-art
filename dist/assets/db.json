@@ -1,0 +1,75 @@
+{
+    "styles": [
+        {
+            "src": "assets/img/styles-5.jpg",
+            "title": "Пастелью",
+            "link": "#pastel"
+        },
+        {
+            "src": "assets/img/styles-6.jpg",
+            "title": "Поп-арт",
+            "link": "#popart"
+        },
+        {
+            "src": "assets/img/styles-7.png",
+            "title": "Фотомозаика",
+            "link": "#mozaika"
+        },
+        {
+            "src": "assets/img/styles-8.jpg",
+            "title": "Шарж",
+            "link": "#sharj"
+        }
+    ],
+    "calc": {
+        "size": [
+            {
+                "textValue": "40x50",
+                "price": 100
+            },
+            {
+                "textValue": "50x70",
+                "price": 200
+            },
+            {
+                "textValue": "70x70",
+                "price": 300
+            },
+            {
+                "textValue": "70x100",
+                "price": 400
+            }
+        ],
+        "material": [
+            {
+                "textValue": "Холст из волокна",
+                "titleValue": "Изящный, позволяет легко создавать текстуру, подходит для декоративных картин маслом.",
+                "price": 1
+            },
+            {
+                "textValue": "Льняной холст",
+                "titleValue": "Достаточно грубый и создает ощущение реальности, подходит для классических пейзажей, натюрмортов и портретов.",
+                "price": 2
+            },
+            {
+                "textValue": "Холст из натурального хлопка",
+                "titleValue": "Изящный, подходит для всех типов реалистичных портретов.",
+                "price": 3
+            }
+        ],
+        "options": [
+            {
+                "textValue": "Покрытие арт-гелем",
+                "price": 1000
+            },
+            {
+                "textValue": "Экспресс-изготовление",
+                "price": 2000
+            },
+            {
+                "textValue": "Доставка готовых работ",
+                "price": 3000
+            }
+        ]
+    }
+}
