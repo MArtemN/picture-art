@@ -21,8 +21,8 @@ const sliders = (slides, direction, prev, next) => {
 		});
 
 		items[i - 1].style.display = 'block';
-		items[i - 1].classList.remove(`animate__${removeAnimate}`);
-		items[i - 1].classList.add('animate__animated', `animate__${addAnimate}`);
+		items[i - 1].classList.remove(`${removeAnimate}`);
+		items[i - 1].classList.add('animate__animated', `${addAnimate}`);
 	}
 
 	function changeSlide(prev, next) {
@@ -31,10 +31,10 @@ const sliders = (slides, direction, prev, next) => {
 
 		if (prevBtn && nextBtn) {
 			prevBtn.addEventListener('click', () => {
-				showSlides(slideIndex += -1, 'slideInRight', 'slideInLeft');
+				showSlides(slideIndex += -1, 'animate__slideInRight', 'animate__slideInLeft');
 			});
 			nextBtn.addEventListener('click', () => {
-				showSlides(slideIndex += 1, 'slideInLeft', 'slideInRight');
+				showSlides(slideIndex += 1, 'animate__slideInLeft', 'animate__slideInRight');
 			});
 		}
 	}
@@ -43,12 +43,12 @@ const sliders = (slides, direction, prev, next) => {
 		if (direction === 'vertical') {
 			autoInterval = setInterval(() => {
 				slideIndex += 1;
-				showSlides(slideIndex, 'slideInDown');
-			}, 3000);
+				showSlides(slideIndex, 'animate__slideInDown');
+			}, 5000);
 		} else {
 			autoInterval = setInterval(() => {
 				slideIndex += 1;
-				showSlides(slideIndex, 'slideInLeft', 'slideInRight');
+				showSlides(slideIndex, 'animate__slideInLeft', 'animate__slideInRight');
 			}, 3000);
 		}
 	}
